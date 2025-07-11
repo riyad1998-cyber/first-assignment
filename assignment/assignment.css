@@ -188,7 +188,7 @@ header {
 /* Rating Section */
 .rating-section {
     background-color: transparent;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     text-align: center;
     margin-bottom: 80px;
 }
@@ -267,13 +267,10 @@ header {
     font-size: 14px;
     color: #888;
     display: block;
-    font-family: 'Inter';
+     
 }
 
 /* Contact Section */
-.contact-section {
-    font-family: 'Raleway', sans-serif;
-}
 
 .contact-detail {
     display: flex;
@@ -285,6 +282,7 @@ header {
 }
 
 .contact-title {
+    font-family: 'Raleway';
     flex: 1;
     min-width: 300px;
     height: 100%;
@@ -323,7 +321,15 @@ header {
     border-radius: 10px;
     cursor: pointer;
 }
-
+.contact-form label {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-family: 'Inter';
+    color: #333;
+    font-family: inherit;
+    display: block;
+}
 .submit-btn:hover {
     background-color: #f1c40f;
 }
