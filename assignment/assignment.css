@@ -15,8 +15,9 @@
 
 
 main {
- 
-  margin: 0px 141px ;
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 40px 24px;
 }
 /* header style */
 header {
@@ -129,7 +130,7 @@ header {
   border-radius: 48px;
   flex-shrink: 0;
 }
-/* user review */
+/* users Info */
 .stats-group {
   display: flex;
   text-align: center;
@@ -140,7 +141,7 @@ header {
 .stats-banner {
   text-align: center;
   background-color: rgba(78, 71, 255, 0.1);
-  padding: 80px 120px;
+  padding: 50px 142px;
   border-radius: 20px;
   font-family: 'Inter';
 }
@@ -152,7 +153,7 @@ header {
   font-family: 'Inter';
 }
 
-.users-reaction-rate {
+.users-rate {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 20px;
@@ -164,3 +165,137 @@ header {
     font-family: 'Raleway';
     color: #252432 ;
 }
+/* Rating Section */
+.rating-section {
+  background-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.rating-section h2 {
+  font-size: 42px;
+  color: #252432;
+  margin-bottom: 50px;
+  margin-top: 137px;
+  .font-family: 'Raleway';
+}
+
+.rating-group {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.rating-card {
+  background-color: #ffffff;
+  padding: 24px 24px;
+  border-radius: 14px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  max-width: 320px;
+  text-align: left;
+}
+
+.stars {
+  margin-bottom: 20px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.rating-card h3 {
+  font-size: 20px;
+  color: #1E1E1E;
+  margin-bottom: 12px;
+}
+
+.rating-card p {
+  font-size: 16px;
+  color: #1E1E1E;
+  margin-bottom: 24px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.user-basic {
+  text-align: left;
+}
+.user-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #252432;
+  display: block;
+}
+.user-date {
+  font-size: 14px;
+  color: #888;
+  display: block;
+  font-family: 'Inter';
+}
+/* Contact Section */
+.contact-section {
+  font-family: 'Raleway', sans-serif;
+}
+.contact-detail {
+  display: flex;
+  width: 1140ox;
+  height: 632px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.contact-title {
+  flex: 1;
+  min-width: 300px;
+  height: 100%; 
+  display: flex;
+  align-items: center;
+}
+.contact-title h2 {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000000;
+}
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.input-field {
+  padding: 14px 18px;
+  font-size: 16px;
+  margin-bottom: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+}
+.submit-btn {
+  padding: 14px 18px;
+  font-size: 16px;
+  background-color: #4E47FF;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: #f1c40f;
+}
+
+
